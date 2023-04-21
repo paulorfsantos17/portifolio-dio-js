@@ -1,0 +1,32 @@
+.content-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tools .title,.personal .title{
+  text-align: center;
+}
+.content-skills .tools ul {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  list-style: none;
+}
+
+.content-skills .personal ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+
+
+.tools ul li img {
+  width: 4rem;
+  height: 4rem;
+}
