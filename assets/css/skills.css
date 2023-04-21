@@ -15,6 +15,10 @@
   list-style: none;
 }
 
+.content-skills .tools ul li {
+  margin-top: .5rem;
+}
+
 .content-skills .personal ul {
   margin-top: 1rem;
   display: flex;

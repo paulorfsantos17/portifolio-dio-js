@@ -33,29 +33,49 @@
 <body>
   <main class="main">
     <header class="header">
-      <img src="./assets/img/image 1.png" alt="photo profile" class="photo">
+      <img src="./assets/img/image 1.png" alt="photo profile"  id="profile.photo"class="photo">
       <h1 class="title">Olá,
-        <br /> sou a Jane Doe
+        <br /> sou a <span id="profile.name">Carregando...</span>
       </h1>
 
       <div class="informations">
-        <p class="job">Junior Developer</p>
-        <p class="location">Minas Gerais-BR</p>
-        <p class="phone"><a href="tel:(35)992477926">(35)992477926</a></p>
-        <p class="email"><a href="mailto:paulorfsantos17@gmail.com">paulorfsantos17@gmail.com</a></p>
+        <p class="job" id="profile.job">Carregando...</p>
+        <p class="location" id="profile.location">Carregando...</p>
+        <p class="phone" ><a id="profile.phone" href="">Carregando...</a></p>
+        <p class="email" ><a id="profile.email" href="">Carregando...</a></p>
       </div>
     </header>
+
+    <section class="acordeon">
+      <button class="trigger">
+        <h2>Skills</h2>
+      </button>
+      <div class="content">
+        <div class="content-skills">
+          <section class="tools">
+            <h3 class="title">Habilidades profissionais:</h3>
+            <ul id="skill.tools">
+              Carregando...
+            </ul>
+          </section>
+
+          <section class="personal">
+            <h3 class="title">Habilidades pessoais:</h3>
+            <ul id="skills.personal">
+              Carregando...
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
 
     <section class="acordeon">
       <button class="trigger">
         <h2>Idiomas</h2>
       </button>
       <div class="content">
-        <ul class="languages">
-          <li>Portugues</li>
-          <li>Espanhol</li>
-          <li>ingles</li>
-          <li>Italiano</li>
+        <ul class="languages" id="profile.languages">
+          Carregando...
         </ul>
       </div>
     </section>
@@ -65,23 +85,8 @@
         <h2>Portifólio</h2>
       </button>
       <div class="content">
-        <ul class="portifolio">
-          <li>
-            <h3 class="title github">Meu Projeto de portifolio</h3>
-            <a href="https://www.google.com" target="_blank">www.google.com</a>
-          </li>
-
-          <li>
-            <span class="title github">Meu Projeto de portifolio</span>
-            <a href="https://www.google.com" target="_blank">www.google.com</a>
-          </li>
-
-          <li>
-            <span class="title github">Meu Projeto de portifolio</span>
-            <a href="https://www.google.com" target="_blank">www.google.com</a>
-          </li>
-
-
+        <ul class="portifolio" id="profile.protifolio">
+          Carregando...
         </ul>
       </div>
     </section>
@@ -91,76 +96,15 @@
         <h2>Experiencia Profissional</h2>
       </button>
       <div class="content">
-        <ul class="experience">
-          <li>
-            <h3 class="title">Front-end Developer / dio.me</h3>
-            <span class="period">Jan 2017 - 2020</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit qui expedita
-              est tempore! Magnam error corrupti eaque fuga facilis, sit quisquam laboriosam,
-              assumenda maiores veritatis impedit nemo sint deserunt in.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Front-end Developer / dio.me</h3>
-            <span class="period">Jan 2017 - 2020</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit qui expedita
-              est tempore! Magnam error corrupti eaque fuga facilis, sit quisquam laboriosam,
-              assumenda maiores veritatis impedit nemo sint deserunt in.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Front-end Developer / dio.me</h3>
-            <span class="period">Jan 2017 - 2020</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit qui expedita
-              est tempore! Magnam error corrupti eaque fuga facilis, sit quisquam laboriosam,
-              assumenda maiores veritatis impedit nemo sint deserunt in.
-            </p>
-          </li>
+        <ul class="experience" id="professional.experience">
+          Carregando...
         </ul>
-      </div>
-    </section>
-    <section class="acordeon">
-      <button class="trigger">
-        <h2>Skills</h2>
-      </button>
-      <div class="content">
-        <div class="content-skills">
-          <section class="tools">
-            <h3 class="title">Habilidades profissionais:</h3>
-            <ul>
-              <li>
-                <img src="./assets/img/icons/icons-react.svg" alt="react">
-              </li>
-              <li>
-                <img src="./assets/img/icons/icon-js.svg" alt="JS">
-              </li>
-              <li>
-                <img src="./assets/img/icons/icon-typescript.svg" alt="TS">
-              </li>
-              <li>
-                <img src="./assets/img/icons/icon-github-skills.svg" alt="github">
-              </li>
-            </ul>
-          </section>
-
-          <section class="personal">
-            <h3 class="title">Habilidades pessoais:</h3>
-            <ul>
-              <li>Liderança</li>
-              <li>Comunicação</li>
-              <li>Trabalho em equipe</li>
-              <li>Organização</li>
-              <li>Flexibilidade</li>
-            </ul>
-          </section>
-        </div>
       </div>
     </section>
   </main>
 </body>
+<script src="./assets/js/api.js"></script>
+<script src="./assets/js/main.js"></script>
 <script src="./assets/js/acordeon.js"></script>
 
 </html>

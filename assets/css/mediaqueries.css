@@ -1,25 +1,5 @@
 @media only screen and (min-width: 1036px) {
-  .header {
-    display: grid;
-    grid-template-areas:
-    "photo title"
-    "photo informations";
-    justify-content: space-around;
-  }
-
-  .header .photo {
-    grid-area: photo;
-  }
-  .header .title {
-    grid-area: title;
-    text-align: start;
-
-  }
-
-  .header .informations {
-    grid-area: informations;
-  }
-
+  
   .main {
     max-width: 1024px;
     margin: 1rem auto;
@@ -43,7 +23,29 @@
 
 }
 
-@media only screen and (min-width: 500px) { 
+@media only screen and (min-width: 720px) { 
+
+  .header {
+    display: grid;
+    grid-template-areas:
+    "photo title"
+    "photo informations";
+    justify-content: space-around;
+  }
+
+  .header .photo {
+    grid-area: photo;
+  }
+  .header .title {
+    grid-area: title;
+    text-align: start;
+
+  }
+
+  .header .informations {
+    grid-area: informations;
+  }
+
   .content-skills {
     display: flex;
     flex-direction: row;
@@ -57,5 +59,8 @@
     grid-template-columns: 1fr 1fr;
     gap:2rem;
   }
+
   
 }
+
+
