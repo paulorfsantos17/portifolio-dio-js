@@ -54,3 +54,13 @@ a:hover{
   left: 0;
   transform: rotate(-0.5turn);
 }
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content:  flex-end;
+}
+.logoDio {
+  width: 4rem;
+  height: 4rem;
+}
